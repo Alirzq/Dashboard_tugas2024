@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_1" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baseline_account_circle_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="200dp"
+        android:text="Fakhry Alifahrizq"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"/>
+    <ImageView
+        android:layout_marginTop="270dp"
+        android:id="@+id/ig"
+        android:layout_marginLeft="-300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_account_circle_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram : @Alfhrzq"
+        android:textSize="17dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="270dp"/>
+    <ImageView
+        android:layout_marginTop="300dp"
+        android:id="@+id/email"
+        android:layout_marginLeft="-300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_account_circle_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: fakhryalifahrizq@gmail.com"
+        android:textSize="17dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp"/>
+    <Button
+        android:id="@+id/masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#131313"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        />
+
+
+
+
+
+
+</RelativeLayout>

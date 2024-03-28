@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listBangundatar"
+        android:title="Bangun Datar"
+        android:icon="@drawable/baseline_view_comfy_24"/>
+
+    <item
+        android:id="@+id/listBangunruang"
+        android:title="Bangun Ruang"
+        android:icon="@drawable/baseline_token_24"/>
+
+
+    <item
+        android:id="@+id/listProfile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_account_circle_24"/>
+
+</menu>
